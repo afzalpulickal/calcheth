@@ -1,0 +1,53 @@
+.topbar{
+    height: 40px;
+    background-color: #293444;
+    top: 0;
+    left: .2%;
+    position: fixed;
+    width: 99.6%;
+    z-index: 100;
+}
+
+
+.logo{
+    color: white;
+    font-size: 26px;
+    padding-top: 7px;
+    padding-left: 10px;
+    float: left;
+}
+.spandiv{
+    color: #d0caca;
+    margin-top: 11px;
+}
+.span{
+    font-size: 13px;
+    padding-left: 13px;
+    float: left;
+}
+
+.profile{
+    float: right;
+    width: 250px;
+}
+
+.float-left{
+    float: left;
+}
+
+.profile-name{
+    color: #d0caca;
+    font-size: 12px;
+    width: 145px;   
+    padding-top: 3px; 
+}
+.profile-span{
+    padding-left: 20px;
+}
+
+.profile-icon{
+    color: #d0caca;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+}

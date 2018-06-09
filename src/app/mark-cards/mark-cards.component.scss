@@ -1,0 +1,39 @@
+.workspace{
+    background-color: #F9F9F9;
+    margin-top: 40px;
+    margin-left: 15vw;
+}
+
+.subtitle{
+    float: left;
+    font-size: 1.3rem;
+    padding-top: 27px;
+    padding-left: 27px;
+}
+
+.titlewrapper{
+    width: 100%;
+    height:7rem;
+}
+
+.componentwrapper{
+    margin-top: 2rem;
+    background-color: white;
+    // height: 25rem;
+    border-radius: 5px;
+    width: 96%;
+    margin-left: 2%;
+    }
+
+    .inprogress-icon{
+        text-align: center;
+        font-size: 8rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .progress{
+        text-align: center;
+    font-size: 2rem;
+    padding-top: 2px;
+    padding-bottom: 5rem;
+    }

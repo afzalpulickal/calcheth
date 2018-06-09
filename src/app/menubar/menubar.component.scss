@@ -1,0 +1,48 @@
+.menuBar{
+    padding-top: 40px;
+    height: 100%;
+    width: 15vw;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-right:1pt solid #F1F3F9;
+    font-size: .75rem;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+li{
+    padding-top:1rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    color: gray;    
+}
+.selected{
+    color: black;
+    background-color: #F1F3F9;
+}
+table{
+    width: 100%;
+    border-spacing: 0;
+}
+tr{
+    height: 40px;
+}
+li:hover {
+    background-color: #F1F3F9;
+    cursor: pointer;
+  }
+
+//   tr.border td {
+//     border-bottom:1pt solid #F1F3F9;
+    
+//   }
+td{
+    text-align: left;
+    padding-left: 10px;
+    
+}

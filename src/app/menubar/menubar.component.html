@@ -1,0 +1,15 @@
+<div class="menuBar">
+  <ul>
+    <li [ngClass]="navigationService.currentRoute==0?'selected':''" (click)="navigateTo(0)">CURRICULUM</li>
+    <li [ngClass]="navigationService.currentRoute==1?'selected':''" (click)="navigateTo(1)">Mark Entry</li>
+    <li [ngClass]="navigationService.currentRoute==2?'selected':''" (click)="navigateTo(2)">Rule Setup</li>
+    <li [ngClass]="navigationService.currentRoute==3?'selected':''" (click)="navigateTo(3)">Component Configuration</li>
+    <li [ngClass]="navigationService.currentRoute==4?'selected':''" (click)="navigateTo(4)">Copy Template</li>
+    <li [ngClass]="navigationService.currentRoute==5?'selected':''" (click)="navigateTo(5)">Mark Upload</li>
+    <li [ngClass]="navigationService.currentRoute==6?'selected':''" (click)="navigateTo(6)">View Repor Cards</li>
+    <li [ngClass]="navigationService.currentRoute==7?'selected':''" (click)="navigateTo(7)">Mark Cards</li>
+    <li [ngClass]="navigationService.currentRoute==8?'selected':''" (click)="navigateTo(8)">Add Report Card Term</li>
+    <li [ngClass]="navigationService.currentRoute==9?'selected':''" (click)="navigateTo(9)">Subject Card entry status</li>
+    <li [ngClass]="navigationService.currentRoute==10?'selected':''" (click)="navigateTo(10)">External Exam Upload</li>
+  </ul>
+</div>
